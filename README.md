@@ -1,39 +1,27 @@
-# Snip_plusplus
+# Snip_plusplus ==> TOBE COMPLETED
 
 ## Description :
-
+A single line of code to understand the difference between ++input and input++
 
 ## Main learning objective
-1. Primitive coercion 
-2. Primitive types
-3. Creating our first end-to-end snippet analysis and building exercice on it
+1. ++input and input++ operators 
 
 ## Code
 
 ```js
-typeof (typeof Number(void Boolean(null))).toString()
+let input = 0;
+(String(++input) + String(input++)) + Number(String(input++) + String(++input));
 ```
 ___
 
 ## Exercises & study links.  
 * pytut: /
-* replit: [myreplit](https://repl.it/@Ludovic7127/IroncladWebbedOutcome)  
+* Trace Block study through replit
+  * Evan's : https://repl.it/@colevandersWands/snippets-day-3
+  * Ludo's : check the JS - breakdonwn
 
   ```js
-  typeof (typeof Number(void Boolean(null))).toString();
-  // S0 : (Null, null)
-  Boolean(null);
-  // S1 : (Boolean, false)
-  void false;
-  // S2 : (Undefined, undefined)
-  Number(undefined);
-  // S3 : (Number, NaN);
-  (typeof NaN);
-  // S4 : (String, "number")
-  ("number").toString();
-  // S5 : (String,"number")
-  typeof "number";
-  // S6 : (String,"String")
+
   ```
 
 * debugger: snippets directly in the text
